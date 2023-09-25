@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.63807d10.css",
-    "main.js": "./static/js/main.09732354.js",
+    "main.css": "./static/css/main.1217a776.css",
+    "main.js": "./static/js/main.c7646a6c.js",
     "static/media/Inter-Medium.woff?v=3.19": "./static/media/Inter-Medium.7ddb89dcdb33dd761944.woff",
     "static/media/Inter-Regular.woff?v=3.19": "./static/media/Inter-Regular.34ed58565339f4f3be40.woff",
     "static/media/Inter-Medium.woff2?v=3.19": "./static/media/Inter-Medium.6db7e439cc4b0e5c0cd2.woff2",
     "static/media/Inter-Regular.woff2?v=3.19": "./static/media/Inter-Regular.4c96ed73beaf6d1e6cc7.woff2",
-    "static/media/group98.svg": "./static/media/group98.25e2f217b787711e50ef.svg",
-    "static/media/github.svg": "./static/media/github.1d7e2c81e26cbd384a89.svg",
-    "static/media/vk.svg": "./static/media/vk.20e430610783f0a1d193.svg",
-    "static/media/google.svg": "./static/media/google.15bf1ad4d976efea8238.svg",
-    "static/media/yandex.svg": "./static/media/yandex.e6f40c627dedc9765225.svg",
+    "static/media/group98.svg": "./static/media/group98.4cd525a3168fe03c7b72.svg",
+    "static/media/github.svg": "./static/media/github.4747cec71716f3065dd6.svg",
+    "static/media/vk.svg": "./static/media/vk.96284c164f2453e5227f.svg",
+    "static/media/google.svg": "./static/media/google.59cc790146b858c11522.svg",
+    "static/media/yandex.svg": "./static/media/yandex.e7abf7717bdba0d8a188.svg",
     "static/media/user-icon.svg": "./static/media/user-icon.f7b592d6f71021d8f7685f9557b5ec3a.svg",
     "index.html": "./index.html",
-    "static/media/magnifyingGlass.svg": "./static/media/magnifyingGlass.4ff9dfb6e019685e3dab.svg",
-    "static/media/group182.svg": "./static/media/group182.93d8ede95d93805f9366.svg",
-    "main.63807d10.css.map": "./static/css/main.63807d10.css.map",
-    "main.09732354.js.map": "./static/js/main.09732354.js.map"
+    "static/media/magnifyingGlass.svg": "./static/media/magnifyingGlass.482b10adfb27a06be99a.svg",
+    "static/media/group182.svg": "./static/media/group182.161f28cddfbc77adefcf.svg",
+    "main.1217a776.css.map": "./static/css/main.1217a776.css.map",
+    "main.c7646a6c.js.map": "./static/js/main.c7646a6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.63807d10.css",
-    "static/js/main.09732354.js"
+    "static/css/main.1217a776.css",
+    "static/js/main.c7646a6c.js"
   ]
 }
