@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "./static/css/main.1dae06f0.css",
-    "main.js": "./static/js/main.02b66fdb.js",
+    "main.css": "./static/css/main.37377fdc.css",
+    "main.js": "./static/js/main.2e00a4d7.js",
     "static/media/background_gradient_dark.png": "./static/media/background_gradient_dark.40ca69b2e6d371e51b19.png",
     "static/media/Inter-Regular.woff2?v=3.19": "./static/media/Inter-Regular.4c96ed73beaf6d1e6cc7.woff2",
     "static/media/Inter-SemiBold.woff2?v=3.19": "./static/media/Inter-SemiBold.b5f0f109bc88052d4000.woff2",
     "static/media/OverpassMono-Medium.woff2?v=4.00": "./static/media/OverpassMono-Medium.6276a49e35b584621b60.woff2",
     "static/media/PTMono-Regular.woff2": "./static/media/PTMono-Regular.8092ab3864a11780018d.woff2",
-    "static/media/12.svg": "./static/media/12.e18ade2075c7d338f19d.svg",
-    "static/media/RobotoMono-Regular.woff2": "./static/media/RobotoMono-Regular.f3904d10026b5730fbd8.woff2",
-    "static/media/new-logo.svg": "./static/media/new-logo.7db09e28d5984c1e584c.svg",
-    "static/media/profile-circle.svg": "./static/media/profile-circle.314cc0f759db66bb0688.svg",
-    "static/media/ruble.svg": "./static/media/ruble.cabe74f64be8ff0078ac.svg",
+    "static/media/12.svg": "./static/media/12.336d01865273c5102dd9.svg",
+    "static/media/logo-black.svg": "./static/media/logo-black.02358627f2a55b268058.svg",
+    "static/media/new-logo.svg": "./static/media/new-logo.a7ff2c3bd78470860656.svg",
+    "static/media/profile-circle.svg": "./static/media/profile-circle.daaabe402137774bbbcb.svg",
+    "static/media/ruble.svg": "./static/media/ruble.e08dda9aa7f42cecda86.svg",
     "index.html": "./index.html",
     "static/media/user-icon.svg": "./static/media/user-icon.f7b592d6f71021d8f7685f9557b5ec3a.svg",
-    "static/media/close-circle.svg": "./static/media/close-circle.42c2d260ebc75d708f0a.svg",
-    "static/media/close-icon.svg": "./static/media/close-icon.e997ca709246afd36904.svg",
-    "static/media/magnifyingGlass.svg": "./static/media/magnifyingGlass.482b10adfb27a06be99a.svg",
-    "static/media/group182.svg": "./static/media/group182.161f28cddfbc77adefcf.svg",
-    "static/media/close-button.svg": "./static/media/close-button.4567fc133771d302bf1a.svg",
-    "static/media/arrow-down.svg": "./static/media/arrow-down.92d3798a10edea766149.svg",
-    "static/media/check.svg": "./static/media/check.d4c70a8487b0f80264a8.svg",
-    "static/media/showPass.svg": "./static/media/showPass.8e1b47b22938d99c033a.svg",
+    "static/media/close-circle.svg": "./static/media/close-circle.e16ba2e5ef1327dcb055.svg",
+    "static/media/close-icon.svg": "./static/media/close-icon.5923d82ae93df0a266d0.svg",
+    "static/media/magnifyingGlass.svg": "./static/media/magnifyingGlass.4ff9dfb6e019685e3dab.svg",
+    "static/media/group182.svg": "./static/media/group182.93d8ede95d93805f9366.svg",
+    "static/media/close-button.svg": "./static/media/close-button.2fe3175939fd3b492553.svg",
+    "static/media/arrow-down.svg": "./static/media/arrow-down.c9f885e55c3e2a880152.svg",
+    "static/media/check.svg": "./static/media/check.a7bdad10dca64e53b49a.svg",
+    "static/media/showPass.svg": "./static/media/showPass.a466a3831408bf672451.svg",
     "static/media/checkMark.svg": "./static/media/checkMark.3e3af4e525eb5ece6459.svg",
-    "main.1dae06f0.css.map": "./static/css/main.1dae06f0.css.map",
-    "main.02b66fdb.js.map": "./static/js/main.02b66fdb.js.map"
+    "main.37377fdc.css.map": "./static/css/main.37377fdc.css.map",
+    "main.2e00a4d7.js.map": "./static/js/main.2e00a4d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dae06f0.css",
-    "static/js/main.02b66fdb.js"
+    "static/css/main.37377fdc.css",
+    "static/js/main.2e00a4d7.js"
   ]
 }
