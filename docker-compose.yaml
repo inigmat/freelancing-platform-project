@@ -11,7 +11,8 @@ services:
     image: postgres:latest
     env_file: .env
     volumes:
-      - pg_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data/
+#      - pg_data:/var/lib/postgresql/data
   
   backend:
     image: ilgiznigma/freelancing-platform-project_backend
@@ -19,21 +20,25 @@ services:
     depends_on: 
       - db
     volumes:
-      - static:/backend_static
-      - media:/app/media
+      - static_value:/app/static/
+      - media_value:/app/media/
+#      - static:/app/static/
+#      - media:/app/media
   
   frontend:
     image: ilgiznigma/freelancing-platform-project_frontend
-    env_file: .env
-    command: cp -r /app/build/. /static/
     volumes:
-      - static:/static
+      - ../frontend/:/app/result_build/
+#    env_file: .env
+#    command: cp -r /app/build/. /static/
+#    volumes:
+#      - static:/static
   
   gateway:
     image: ilgiznigma/freelancing-platform-project_gateway
     env_file: .env
     ports:
-      - 8000:80
+      - 80:80
     volumes:
-      - static:/static
-      - media:/media
+      - static_value:/var/html/static/
+      - media_value:/var/html/media/
