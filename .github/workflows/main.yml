@@ -120,4 +120,4 @@ jobs:
           sudo docker-compose exec -T backend python manage.py makemigrations orders
           sudo docker-compose exec -T backend python manage.py migrate
           sudo docker-compose exec -T backend python manage.py collectstatic --no-input
-          sudo docker compose exec backend cp -r /app/collected_static/. /backend_static/static/
+          sudo docker-compose exec backend cp -r /app/collected_static/. /backend_static/static/
