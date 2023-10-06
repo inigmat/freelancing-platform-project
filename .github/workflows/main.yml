@@ -105,7 +105,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         source: "docker-compose.yаml"
-        target: "freelancing-platform-project"
+        target: "/home/${{ secrets.USER }}/"
     - name: Executing remote ssh commands to deploy
       uses: appleboy/ssh-action@master
       with:
