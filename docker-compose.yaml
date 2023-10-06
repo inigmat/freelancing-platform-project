@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3.8'
 
 volumes:
   pg_data:
@@ -27,7 +27,7 @@ services:
       - .env
   
   nginx:
-    image: nginx:1.21.3-alpine
+    image: nginx:latest
     ports:
       - "80:80"
       - "443:443"
