@@ -20,9 +20,9 @@ SECRET_KEY = 'django-insecure-mziq8mo-wgp#urg02d(uaau4g)(nb2-*a5fhu0hbxlguev@bh%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 
-                 'localhost', 
-                 'taski.servebeer.com', 
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'localhost',
+                 'taski.servebeer.com',
                  '62.84.127.171']
 
 
