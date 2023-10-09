@@ -10,5 +10,5 @@ router_v1.register(r'jobs', JobViewSet, basename='jobs')
 router_v1.register(r'category', CategoryViewSet, basename='category')
 
 urlpatterns = [
-    path('v1/', include(router_v1.urls)),
+    path('', include(router_v1.urls)),
 ]
