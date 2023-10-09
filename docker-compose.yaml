@@ -29,13 +29,13 @@ services:
   frontend:
     image: ilgiznigma/freelancing-platform-project_frontend:latest
     # тест порта
-    ports:
-      - "5173:5173"
+#    ports:
+#      - "5173:5173"
     #
     env_file: .env
-#    command: cp -r /app/build/. /static/
-#    volumes:
-#      - static:/static
+    command: cp -r /app/build/. /static/
+    volumes:
+      - static:/static
 
   nginx:
     image: nginx:latest
