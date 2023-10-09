@@ -7,12 +7,10 @@
 # CMD cp -r build result_build
 
 
-FROM node:18
+FROM node:18.18.0-alpine
 WORKDIR /app
-COPY frontend/package*.json ./frontend/
-WORKDIR /app/frontend
+COPY package*.json ./
 RUN npm install
-WORKDIR /app
-COPY frontend/ ./frontend/
-EXPOSE 5173
-CMD ["npm", "start"]
+COPY . ./
+RUN npm install
+CMD npm start
