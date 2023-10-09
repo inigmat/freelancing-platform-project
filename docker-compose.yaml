@@ -35,7 +35,6 @@ services:
     env_file: .env
     volumes:
       - ../frontend/:/app/build/
-    command: cp -r /app/build. /static/
 
   nginx:
     image: nginx:latest
