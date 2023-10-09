@@ -33,9 +33,9 @@ services:
 #      - "5173:5173"
     #
     env_file: .env
-    command: cp -r /app/build. /static/
     volumes:
       - ../frontend/:/app/build/
+    command: cp -r /app/build. /static/
 
   nginx:
     image: nginx:latest
