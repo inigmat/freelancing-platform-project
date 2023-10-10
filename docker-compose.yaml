@@ -28,7 +28,7 @@ services:
   
   frontend:
     image: ilgiznigma/freelancing-platform-project_frontend:latest
-    # build: ../frontend
+    env_file: .env
     volumes:
       - ./frontend/:/app/result_build/
     depends_on:
