@@ -28,6 +28,7 @@ services:
   
   frontend:
     image: ilgiznigma/freelancing-platform-project_frontend:latest
+    build: ../frontend
     volumes:
       - ./frontend/:/app/result_build/
     depends_on:
