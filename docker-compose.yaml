@@ -28,13 +28,10 @@ services:
   
   frontend:
     image: ilgiznigma/freelancing-platform-project_frontend:latest
-    # тест порта
-#    ports:
-#      - "5173:5173"
-    #
-    env_file: .env
     volumes:
-      - ../frontend/:/app/build/
+      - ./frontend/:/app/result_build/
+    depends_on:
+      - backend
 
   nginx:
     image: nginx:latest
@@ -43,6 +40,7 @@ services:
       - "443:443"
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./frontend/build:/usr/share/nginx/html/
       - static:/var/html/static/
       - media:/var/html/media/
       - ./data/certbot/conf:/etc/letsencrypt
