@@ -207,5 +207,5 @@ SWAGGER_SETTINGS = {
     # 'DEFAULT_INFO': 'taski.urls.swagger_info',
 }
 
-#PROXY SSL
+# PROXY SSL
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
