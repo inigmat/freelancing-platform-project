@@ -32,7 +32,6 @@ services:
     volumes:
     #  - static:/static
       - ./frontend/:/app/result_build/
-    depends_on:
 
   nginx:
     image: nginx:1.21.3-alpine
