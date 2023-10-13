@@ -8,7 +8,7 @@ volumes:
 services:
   
   db:
-    image: postgres:latest
+    image: ppostgres:13.0-alpine
     env_file: .env
     volumes:
       - pg_data:/var/lib/postgresql/data
@@ -35,7 +35,7 @@ services:
     depends_on:
 
   nginx:
-    image: nginx:latest
+    image: nginx:1.21.3-alpine
     ports:
       - "80:80"
       - "443:443"
