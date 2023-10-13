@@ -7,6 +7,6 @@ router = SimpleRouter()
 router.register('users', UserViewSet),
 
 urlpatterns = [
-    path('', include(router.urls)),
-    path('login/', include('djoser.urls.jwt')),
+    # path('', include(router.urls)),
+    # path('login/', include('djoser.urls.jwt')),
 ]

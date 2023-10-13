@@ -23,7 +23,8 @@ DEBUG = False
 ALLOWED_HOSTS = ['127.0.0.1',
                  'localhost',
                  'taski.servebeer.com',
-                 '62.84.127.171']
+                 '62.84.127.171',
+                 '45.86.180.105']
 
 
 # Application definition
@@ -83,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE', default='django.db.backends.postgresql'),
         'NAME': os.getenv('DB_NAME', default='postgres'),
-        'USER': os.getenv('POSTGRES_USER', default='postgres'),
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD', default='postgres'),
+        'USER': os.getenv('POSTGRES_USER'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
         'HOST': os.getenv('DB_HOST', default='db'),
         'PORT': os.getenv('DB_PORT', default='5432')
     }
@@ -206,3 +207,6 @@ SWAGGER_SETTINGS = {
     'DEFAULT_AUTO_SCHEMA_CLASS': 'drf_yasg.inspectors.SwaggerAutoSchema',
     # 'DEFAULT_INFO': 'taski.urls.swagger_info',
 }
+
+# PROXY SSL
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
